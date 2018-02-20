@@ -1,0 +1,19 @@
+\documentclass[12pt,a4paper]{article} % Стиль (по умолчанию будет 14pt)
+\usepackage{tex4ht} 
+\usepackage[utf8]{inputenc}
+\usepackage[english,russian]{babel}
+
+\begin{document}
+
+\nocite{*}
+\renewcommand{\bibname}{Список публикаций аспиранта ШЕН ДВФУ\\ по направлению 01.04.02 "Теоретическая физика"\\ Шевченко Ю.А.}
+
+\bibliographystyle{ugost2008ls}
+\bibliography{\bibfilename} %тут php вставит имя bib-файла
+
+\end{document}
+
+%%% Local Variables:
+%%% mode: latex
+%%% TeX-master: t
+%%% End:
