@@ -4,3 +4,5 @@
 texlive 
 texlive-lang-cyrillic 
 tex4ht
+
+При наличии проблем со шрифтами запустите файл fontsload.sh из папки fontsload.
